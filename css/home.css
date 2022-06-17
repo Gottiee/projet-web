@@ -85,7 +85,7 @@ p a
 	height: 300px;
 }
 
-#nos_valeurs
+.slogan
 {
 	font-size: 45px;	
 }
@@ -118,4 +118,10 @@ button
 .color_button
 {
 	color: #214F78;
+}
+
+.nos_valeurs
+{
+	text-align:center;
+	padding-top:70px;
 }
