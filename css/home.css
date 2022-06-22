@@ -92,7 +92,7 @@ p a
 
 .slogan
 {
-	font-size: 45px;	
+	font-size: 55px;	
 }
 
 .button
@@ -136,8 +136,28 @@ button:active
 	color: #FFFFFF;
 }
 
-.nos_valeurs
+.bloc2
 {
-	text-align:center;
 	padding-top:70px;
 }
+
+h2
+{
+	font-size: 35px;
+	text-align: center;
+}
+
+.nos_valeurs
+{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+.image_valeur
+{
+	display:flex;
+	justify-content: space-around;
+}
+
