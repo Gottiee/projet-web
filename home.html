@@ -56,18 +56,49 @@
 				</div>
 				<div class="figcation_container">
 					<div>
-						<a href="html/photo_eliot.html"><button class="figcaption_eliot"><figcaption><br />Eliot EDY</figcaption></button></a>
+						<a href="html/photo_eliot.html"><button class="figcaption_eliot"><figcaption class="figcaption_texte"><br /><strong class="strong_name_photo">Eliot EDY</strong><br /><br />Developer | Restauration</figcaption></button></a>
 					</div>
 					<div>
-						<a href="html/photo_nolhan.html"><button class="figcaption_nolhan"><figcaption><br />Nolhan Lacom</figcaption></button></a>
+						<a href="html/photo_nolhan.html"><button class="figcaption_nolhan"><figcaption class="figcaption_texte"><br /><strong class="strong_name_photo">Nolhan Lacom</strong><br ><br />Droit | Commerce</figcaption></button></a>
 					</div>
 					<div>
-						<a href="html/photo_germain.html"><button class="figcaption_germain"><figcaption><br />Germain Nivert</figcaption></button></a>
+						<a href="html/photo_germain.html"><button class="figcaption_germain"><figcaption class="figcaption_texte"><br /><strong class="strong_name_photo">Germain Nivert</strong><br /><br />Design | Photo</figcaption></button></a>
 					</div>
 				</div>
 			</div>
+	<div class="nous_contacter" id="nous_contacter">
+		<h2><img height="90px" width="90px" src="images/logo.png" class="logo_nous_contacter"/><strong>Notre Nom</strong></h2>
+		<div class="form">
+			<form method="post" action="envoie_mail.php">
+				<div class="formulaire">
+					<div class="nom"> 
+						<label for="nom_input">Votre Nom</label>
+						<input type="text" id="nom_input" required/>
+					</div>
+					<div class="email">
+						<label for="email_input">Email</label>
+						<input type="email" id="email_input" required/>
+					</div>
+					<div class="entreprise">
+						<label for="entreprise_input">Entreprise</label>
+						<input type="entreprise_input" required/>
+					</div>
+					<div class="tel">
+						<label for="tel_input">Numéro de téléphone</label>
+						<input type="number" id="tel_input" required />
+					</div>
+					<div class="message">
+						<label for="message_input">Votre Message</label>
+						<textarea id="message_input" required></textarea>
+					</div>
+					<div class="send_button">
+						<button>Envoyer</button>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
-		<footer class="nous_contacter" id="nous_contacter">
+		<footer class="footer" >
 			<p><img class="logo_footer" src="images/logo.png" alt="logo" /><strong>Nous Contacter:</strong></p>
 			<ul>
 				<li><em>mail:</em> mailpro@pro.fr</li>

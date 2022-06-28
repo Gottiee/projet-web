@@ -67,6 +67,7 @@ p:nth-of-type(1) {
 .banniere
 {
 	position: fixed !important;
+	z-index: 5;
 	transition: 0.3s;
 	background: rgba(0, 0, 0, 0.5);
 	top: 0;
@@ -196,11 +197,13 @@ h2
 	width: 350px;
 	background: white;
 	position: relative;
+	z-index: 2;
 }
 
 .photo_eliot, .photo_nolhan, .photo_germain
 {
 	position: relative;
+	z-index: 3;
 	top: 30px;
 	left:25px;
 }
@@ -218,6 +221,7 @@ h2
 	top: -95px;
 /*top:-100px;*/	
 	position:relative;
+	z-index: 2;
 }
 
 .figcaption_eliot:hover, .figcaption_nolhan:hover, .figcaption_germain:hover
@@ -229,6 +233,35 @@ h2
 {
 	display:flex;
 	justify-content: space-around;
+}
+
+.strong_name_photo
+{
+	font-size: 15px;
+}
+
+.figcaption_texte
+{
+	padding-bottom:10px;	
+	font-size: 12px;
+}
+
+.logo_nous_contacter
+{
+	position:relative;
+	left: -10px;
+	top: 25px;
+}
+
+.nous_contacter
+{
+	margin-top:80px;
+}
+
+.formulaire
+{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .logo_footer
