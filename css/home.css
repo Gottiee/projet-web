@@ -11,7 +11,7 @@ html, body {
 	background-attachment:fixed;
 	background-size:100%;
 	background-repeat: no-repeat;
-	height: 30%;
+	height: 250px;
 	max-height: 1000px;
 	min-height: 600px;
 }
@@ -112,7 +112,7 @@ p a
 	font-size: 20px;
 }
 
-button:active
+.button_plaquette:active, .button_prestations:active
 {
 	transform:scale(0.95);
 }
@@ -190,18 +190,49 @@ h2
 	background: rgba(0, 0, 0, 0.1);
 }
 
-.figcaption_eliot, .figcaption_nolhan, .figcaption_germain
+.bloc_photo_eliot, .bloc_photo_nolhan, .bloc_photo_germain
 {
-	background: rgba(250, 250, 250, 0.9);
-	border: none;
-	border-radius: 10px;
-	height: 75px;
-	width: 200px;
+	height: 450px;
+	width: 350px;
+	background: white;
+	position: relative;
 }
 
-.figcaption_eliot
+.photo_eliot, .photo_nolhan, .photo_germain
 {
+	position: relative;
+	top: 30px;
+	left:25px;
+}
+
+.figcaption_eliot, .figcaption_nolhan, .figcaption_germain
+{
+	background: rgba(250, 250, 250, 0.98);
+	border: none;
+/*border-radius: 10px;*/	
+	height: 75px;
+	/*width: 290px;*/	
+	width: 300px;	
+	margin: 0px;
+	padding:0px;
+	top: -95px;
+/*top:-100px;*/	
 	position:relative;
-	top: -82px;
-	left:5%;
+}
+
+.figcaption_eliot:hover, .figcaption_nolhan:hover, .figcaption_germain:hover
+{
+	background: rgba(230, 230, 230, 0.98);
+}
+
+.figcation_container
+{
+	display:flex;
+	justify-content: space-around;
+}
+
+.logo_footer
+{
+	height:30px;
+	width:30px;
 }
