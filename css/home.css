@@ -249,8 +249,14 @@ h2
 .logo_nous_contacter
 {
 	position:relative;
-	left: -10px;
+	left: -30px;
 	top: 25px;
+}
+
+.notre_nom
+{
+	padding-right:80px;
+	padding-bottom: 50px;
 }
 
 .nous_contacter
@@ -260,12 +266,11 @@ h2
 
 .formulaire
 {
-	margin-left:50px;
-	margin-right:50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 50px;
+	gap: 25px;
+	column-gap: 50px;
 }
 
 .nom, .email, .entreprise, .tel
@@ -280,20 +285,36 @@ h2
 	width:100%;
 	margin:0px;
 	padding:0px;
+	padding-left:13%;
 }
 
 #nom_input, #email_input, #entreprise_input, #tel_input
 {
 	padding:0px;
 	margin:0px;
-	height:35px;
+	height:40px;
 	width: 100%;
+	margin-top: 15px;
 }
 
 #message_input
 {
-	height:55px;
-	width:100%;
+	height:95px;
+	margin-top: 15px;
+	width:85%;
+}
+
+label
+{
+	color: grey;
+	margin-top: 15px;
+	font-size:
+}
+
+input
+{
+	border: solid 1px #E5E5E5;
+	border-radius: 5px;
 }
 
 .logo_footer
