@@ -41,9 +41,9 @@
 				<img src="images/croissance.png" height="100" width="150"/>
 			</div>
 		</div>
-			<div class="bloc_freelance">
+			<div class="bloc_freelance" id="nos_freelancers">
 				<h2 class="freelancer_titre">Nos Freelancer</h2>
-				<div class="nos_freelancers" id="nos_freelancers">
+				<div class="nos_freelancers">
 					<div class="bloc_photo_eliot">
 						<a href="html/photo_eliot.html"><img class="photo_eliot" src="images/photo_eliot.jpg" alt="photo d'Eliot EDY" height="400" width="300"/></a>
 					</div>
@@ -73,27 +73,32 @@
 				<div class="formulaire">
 					<div class="nom"> 
 						<label for="nom_input">Votre Nom</label>
+						<br />
 						<input type="text" id="nom_input" required/>
 					</div>
 					<div class="email">
 						<label for="email_input">Email</label>
+						<br />
 						<input type="email" id="email_input" required/>
 					</div>
 					<div class="entreprise">
 						<label for="entreprise_input">Entreprise</label>
-						<input type="entreprise_input" required/>
+						<br />
+						<input type="text" id="entreprise_input" required/>
 					</div>
 					<div class="tel">
 						<label for="tel_input">Numéro de téléphone</label>
+						<br />
 						<input type="number" id="tel_input" required />
 					</div>
 					<div class="message">
 						<label for="message_input">Votre Message</label>
+						<br />
 						<textarea id="message_input" required></textarea>
 					</div>
-					<div class="send_button">
-						<button>Envoyer</button>
-					</div>
+				</div>
+				<div class="send_button">
+					<button>Envoyer</button>
 				</div>
 			</form>
 		</div>

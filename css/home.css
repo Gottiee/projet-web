@@ -260,8 +260,40 @@ h2
 
 .formulaire
 {
+	margin-left:50px;
+	margin-right:50px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+}
+
+.nom, .email, .entreprise, .tel
+{
+	width:35%;
+	margin:0px;
+	padding:0px;
+}
+
+.message
+{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+#nom_input, #email_input, #entreprise_input, #tel_input
+{
+	padding:0px;
+	margin:0px;
+	height:35px;
+	width: 100%;
+}
+
+#message_input
+{
+	height:55px;
+	width:100%;
 }
 
 .logo_footer
