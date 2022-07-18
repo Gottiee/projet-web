@@ -255,7 +255,7 @@ h2
 
 .notre_nom
 {
-	padding-right:80px;
+	padding-right: 100px;
 	padding-bottom: 50px;
 }
 
@@ -317,8 +317,30 @@ input
 	border-radius: 5px;
 }
 
+.nous_contacter_formulaire_text
+{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
 .logo_footer
 {
 	height:30px;
 	width:30px;
+}
+
+.send_button
+{
+	padding-top: 30px;
+	padding-left: 13%;
+}
+
+.button_send
+{
+	height: 45px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	background-color: yellow;
 }
