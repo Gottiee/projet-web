@@ -1,0 +1,387 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+	height: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+} 
+
+.top_image
+{
+	background-image:url("../images/home_main.jpeg");
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	max-height: 1000px;
+	min-height: 600px;
+}
+
+.hex
+{
+	 width: 100%;
+	 height: 300px;
+}
+.svg_hexa
+{
+	padding-top: 130px;
+}
+
+.logo
+{
+	width: 80px;
+	height: 80px;
+	margin-left: 5%;
+	float:left;
+}
+
+p:nth-of-type(1) {
+  margin-top: 0px;
+}
+
+.banniere:hover
+{
+	background-color:black;
+	opacity:0.8;
+}
+
+.acceuil:hover
+{
+	color: white;
+}
+
+.valeur:hover
+{
+	color: white;
+}
+
+.freelance:hover
+{
+	color: white;
+}
+
+.contact:hover
+{
+	color: white;
+}
+
+.banniere
+{
+	position: fixed !important;
+	z-index: 5;
+	transition: 0.3s;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	width: 100%;
+	height: 83px;
+	font-size: 24px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+p a
+{
+	text-decoration:none;
+	color:#DAD2D2;
+}
+
+.intro
+{
+	text-align: center;
+	padding-top:100px;
+	height: 300px;
+}
+
+.slogan
+{
+	font-size: 55px;	
+}
+
+.button
+{
+	padding-top:50px;
+}
+
+
+.button_prestations, .button_plaquette
+{
+	background: rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+	border: none;
+	border-radius: 10px;
+	height: 50px;
+	width: 250px; 
+	font-size: 20px;
+}
+
+.button_plaquette:active, .button_prestations:active
+{
+	transform:scale(0.95);
+}
+
+.padding
+{
+	margin-left: 75px;
+}
+
+.button_plaquette
+{
+	background:#F6F9ED;
+}
+
+.color_button
+{
+	color: black;
+}
+
+{
+	color: #FFFFFF;
+}
+
+.bloc2
+{
+	padding-top:70px;
+}
+
+h2
+{
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.nos_valeurs
+{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+.image_valeur
+{
+	display:flex;
+	justify-content: space-around;
+	padding-bottom: 100px;
+}
+
+.valeur_1, .valeur_2 , .valeur_3 
+{
+	padding-right: 4%;
+}
+
+.image_communication, .image_confiance, .image_croissance
+{
+	padding-right: 3%;
+}
+
+.freelancer_titre
+{
+	padding-top: 30px;
+}
+
+.nos_freelancers
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+.bloc_freelance
+{
+	padding-bottom: 30px;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.bloc_photo_eliot, .bloc_photo_nolhan, .bloc_photo_germain
+{
+	height: 450px;
+	width: 350px;
+	background: white;
+	position: relative;
+	z-index: 2;
+}
+
+.photo_eliot, .photo_nolhan, .photo_germain
+{
+	position: relative;
+	z-index: 3;
+	top: 30px;
+	left:25px;
+}
+
+.figcaption_eliot, .figcaption_nolhan, .figcaption_germain
+{
+	background: rgba(250, 250, 250, 0.98);
+	border: none;
+/*border-radius: 10px;*/	
+	height: 75px;
+	/*width: 290px;*/	
+	width: 300px;	
+	margin: 0px;
+	padding:0px;
+	top: -95px;
+/*top:-100px;*/	
+	position:relative;
+	z-index: 2;
+}
+
+.figcaption_eliot:hover, .figcaption_nolhan:hover, .figcaption_germain:hover
+{
+	background: rgba(230, 230, 230, 0.98);
+}
+
+.figcation_container
+{
+	display:flex;
+	justify-content: space-around;
+}
+
+.strong_name_photo
+{
+	font-size: 15px;
+}
+
+.figcaption_texte
+{
+	padding-bottom:10px;	
+	font-size: 12px;
+}
+
+.logo_nous_contacter
+{
+	position:relative;
+	left: -30px;
+	top: 25px;
+}
+
+.notre_nom
+{
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+.nous_contacter
+{
+	margin-top:80px;
+}
+
+.formulaire
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+	column-gap: 50px;
+}
+
+.nom, .email, .entreprise, .tel
+{
+	width:35%;
+	margin:0px;
+	padding:0px;
+}
+
+.message
+{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	padding-left:13%;
+}
+
+#nom_input, #email_input, #entreprise_input, #tel_input
+{
+	padding:0px;
+	margin:0px;
+	height:40px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+#message_input
+{
+	height:95px;
+	margin-top: 15px;
+	width:85%;
+}
+
+label
+{
+	color: grey;
+	margin-top: 15px;
+	font-size:
+}
+
+input
+{
+	border: solid 1px #E5E5E5;
+	border-radius: 5px;
+}
+
+.nous_contacter_formulaire_text
+{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.logo_footer
+{
+	height:150px;
+	width:150px;
+}
+
+.send_button
+{
+	padding-top: 30px;
+	padding-left: 13%;
+	padding-bottom: 90px;
+}
+
+.button_send
+{
+	height: 45px;
+	width: 120px;
+	border: none;
+	border-radius: 5px;
+	background-color: orange;
+	color: white;
+	font-size: 15px;
+	transition: 0.3s;
+}
+
+.button_send:active
+{
+	transform:scale(0.95);
+}
+
+footer
+{
+	display:flex;
+	justify-content:center;
+	background: rgba(0, 0, 0, 0.1);
+	padding-top: 30px;
+	column-gap: 20%;
+}
+
+.notre_nom_footer
+{
+	position: relative;
+	z-index: 9;
+	top: -53px;
+	font-size: 40px;
+	left: 30px;
+}
+
+.email_tel
+{
+	padding-top:50px;
+	padding-right:50px;
+	font-size:20px;
+}
+
+.contacat_footer
+{
+	text-align: center;	
+	font-size:25px;
+}
