@@ -66,6 +66,9 @@ p:nth-of-type(1) {
 
 .banniere
 {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
 	position: fixed !important;
 	z-index: 5;
 	transition: 0.3s;
@@ -74,8 +77,13 @@ p:nth-of-type(1) {
 	width: 100%;
 	height: 83px;
 	font-size: 24px;
-	text-align: center;
 	opacity: 0.95;
+}
+
+.acceuil, .valeur, .freelance, .contact
+{
+	margin:25px;
+	padding-top:23px;
 }
 
 p a
