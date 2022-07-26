@@ -45,7 +45,7 @@ p:nth-of-type(1) {
 	opacity:0.8;
 }
 
-.acceuil:hover
+.home_p:hover
 {
 	color: white;
 }
@@ -81,10 +81,67 @@ p:nth-of-type(1) {
 	opacity: 0.95;
 }
 
-.acceuil, .valeur, .freelance, .contact
+.home_p, .valeur, .freelance, .contact
 {
 	margin:25px;
 	padding-top:23px;
+}
+
+.slogan
+{
+	font-size: 45px;
+}
+
+.container_button
+{
+	display: flex;
+	padding-top: 50px;
+}
+
+@media all and (max-width: 800px)
+{
+	.valeur, .freelance
+	{
+		width: 0px;
+		height: 0px;
+		font-size: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.logo
+	{
+		height: 80px;	
+		width: 80px;
+		visibility: visible;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.contact
+	{
+		padding-right: 50px;
+	}
+
+	.slogan
+	{
+		margin-left:20px;
+		padding-top: 0px;
+		margin-right:20px;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	.slogan
+	{
+		font-size: 40px;
+	}
+
+	.button_prestations, .button_plaquette
+	{
+		height: 		
+	}
 }
 
 p a
@@ -98,16 +155,6 @@ p a
 	text-align: center;
 	padding-top:100px;
 	height: 300px;
-}
-
-.slogan
-{
-	font-size: 55px;	
-}
-
-.button
-{
-	padding-top:50px;
 }
 
 
@@ -125,11 +172,6 @@ p a
 .button_plaquette:active, .button_prestations:active
 {
 	transform:scale(0.95);
-}
-
-.padding
-{
-	margin-left: 75px;
 }
 
 .button_plaquette

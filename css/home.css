@@ -44,24 +44,14 @@ p:nth-of-type(1) {
 	opacity:0.8;
 }
 
-.acceuil:hover
+.home:hover
 {
-	color: white;
+	color: rgb(255, 0, 0);
 }
 
 .valeur:hover
 {
-	color: white;
-}
-
-.freelance:hover
-{
-	color: white;
-}
-
-.contact:hover
-{
-	color: white;
+	color:black;
 }
 
 .banniere
@@ -80,7 +70,7 @@ p:nth-of-type(1) {
 	opacity: 0.95;
 }
 
-.acceuil, .valeur, .freelance, .contact
+.home_p, .valeur, .freelance, .contact
 {
 	margin:25px;
 	padding-top:23px;
@@ -101,12 +91,16 @@ p a
 
 .slogan
 {
+	padding-top: 80px;
 	font-size: 55px;	
 }
 
-.button
+.container_button
 {
-	padding-top:50px;
+	display: flex;
+	padding-top: 50px;
+	justify-content: center;
+	column-gap: 90px;
 }
 
 
