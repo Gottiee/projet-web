@@ -9,7 +9,7 @@ html, body {
 {
 	background-image:url("../images/home_main.jpeg");
 	background-attachment:fixed;
-	background-size: cover;
+	background-size: 1500px 1000px;
 	background-repeat: no-repeat;
 	height: 250px;
 	max-height: 1000px;
@@ -100,6 +100,7 @@ p:nth-of-type(1) {
 
 @media all and (max-width: 800px)
 {
+
 	.valeur, .freelance
 	{
 		width: 0px;
@@ -131,16 +132,99 @@ p:nth-of-type(1) {
 	}
 }
 
+.nos_valeurs
+{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+.image_valeur
+{
+	display:flex;
+	justify-content: space-around;
+	padding-bottom: 100px;
+}
+
+.valeur_1, .valeur_2 , .valeur_3 
+{
+	padding-right: 4%;
+}
+
+.image_communication, .image_confiance, .image_croissance
+{
+	padding-right: 3%;
+}
+
+.freelancer_titre
+{
+	padding-top: 30px;
+}
+
 @media all and (max-width: 700px)
 {
 	.slogan
 	{
 		font-size: 40px;
+		margin-left:50px;
+		margin-right:50px;
+	}
+		
+	.container_button
+	{
+		flex-direction: column;
+		gap: 15px;
+		padding-top: 10px;		
 	}
 
-	.button_prestations, .button_plaquette
+	.nos_valeurs
 	{
-		height: 		
+		flex-direction: column;
+		padding-left:30%;
+	}
+
+	.valeur_2
+	{
+		padding-left: 30px;
+	}
+
+	.valeur_3
+	{
+		padding-left: 25px;
+	}
+
+	.valeur_1, .valeur_2 , .valeur_3 
+	{
+		padding-bottom: 200px;
+	}
+
+	.image_valeur
+	{
+		flex-direction: column;
+		padding-left:33%;
+		padding-bottom: 0px;
+		position: absolute;
+		top: 860px;
+	}
+
+	.image_communication, .image_confiance, .image_croissance
+	{
+		padding-bottom: 180px;
+	}
+
+	.image_confiance
+	{
+		padding-left: 40px;
+		position: relative;
+		top: -20px;
+	}
+
+	.image_croissance
+	{
+		position: relative;
+		top: -50px;
+		padding-bottom: 0px;
 	}
 }
 
@@ -184,10 +268,6 @@ p a
 	color: black;
 }
 
-{
-	color: #FFFFFF;
-}
-
 .bloc2
 {
 	padding-top:70px;
@@ -198,36 +278,6 @@ h2
 	font-size: 35px;
 	text-align: center;
 	padding-bottom: 10px;
-}
-
-.nos_valeurs
-{
-	padding-top: 30px;
-	display: flex;
-	justify-content: space-around;
-	font-size: 25px;
-}
-
-.image_valeur
-{
-	display:flex;
-	justify-content: space-around;
-	padding-bottom: 100px;
-}
-
-.valeur_1, .valeur_2 , .valeur_3 
-{
-	padding-right: 4%;
-}
-
-.image_communication, .image_confiance, .image_croissance
-{
-	padding-right: 3%;
-}
-
-.freelancer_titre
-{
-	padding-top: 30px;
 }
 
 .nos_freelancers
