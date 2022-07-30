@@ -90,6 +90,7 @@ p:nth-of-type(1) {
 .slogan
 {
 	font-size: 45px;
+	padding-top: 20px;
 }
 
 .container_button
@@ -170,10 +171,9 @@ p:nth-of-type(1) {
 @media all and (max-width: 700px)
 {
 
-	
 	.slogan
 	{
-		font-size: 40px;
+		font-size: 35px;
 		margin-left:30px;
 		margin-right:30px;
 	}

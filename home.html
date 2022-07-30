@@ -32,13 +32,12 @@
 						<p class="button"><button class="button_prestations"><a href="html/prestations.html"><span class="button_hover">Nos Prestations</span></a></button></p>
 					</div>
 					<div class="div_button_plaquette">
-						<p><button class="button_plaquette"><a href="telechargable/plaquette.pdf" title="plaquette des prestations" target="_blank"><span class="color_button">Plaquette des prestations</span></a></button></p>
+						<p class="p_button_plaquette"><button class="button_plaquette"><a href="telechargable/plaquette.pdf" title="plaquette des prestations" target="_blank"><span class="color_button">Plaquette des prestations</span></a></button></p>
 					</div>
 				</div>
 			</div>
 			<svg class="svg_hexa" width="100%" height="70px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none"><polygon id="nos_valeurs" fill="#ffffff" points="100 0 100 100 0 100"></polygon></svg>
 		</div>
-	<div class="bloc2">
 		<h2>Nos Valeurs</h2>
 		<div class ="nos_valeurs">
 			<div class="valeur_1">
@@ -66,30 +65,68 @@
 				<h2 class="freelancer_titre">Nos Freelancer</h2>
 				<div class="nos_freelancers">
 					<div class="bloc_photo_eliot">
-						<a href="html/photo_eliot.html"><img class="photo_eliot" src="images/photo_eliot.jpg" alt="photo d'Eliot EDY" height="400" width="300"/></a>
+						<button><img class="photo_eliot" src="images/photo_eliot.jpg" alt="photo d'Eliot EDY" height="400" width="300"/></button>
+						<figcaption><strong class="strong_name_photo">Eliot EDY</strong><br />Devellopement Web & Conseil restauration</figcaption>
 					</div>
 					<div class="bloc_photo_nolhan">
-						<a href="html/photo_nolhan.html"><img class="photo_nolhan" src="images/photo_nolhan.jpg" alt="photo de Nolhan Lacom" height="400" width="300"/></a>
+						<button><img class="photo_nolhan" src="images/photo_nolhan.jpg" alt="photo de Nolhan Lacom" height="400" width="300"/></button>
+						<figcaption class="figcaption_texte"><strong class="strong_name_photo">Nolhan LACOM</strong><br />Conseil & Stratégie commercial</figcaption>
 					</div>
 					<div class="bloc_photo_germain">
-						<a href="html/photo_germain.html"><img src="images/photo_germain.jpg" class="photo_germain" alt="photo de Germain Nivert" height="400" width="300"/></a>
+						<button><img src="images/photo_germain.jpg" class="photo_germain" alt="photo de Germain Nivert" height="400" width="300"/></button>
+						<figcaption class="figcaption_texte"><strong class="strong_name_photo">Germain NIVERT</strong><br />Conseil Design & Création</figcaption>
 					</div>
 				</div>
-				<div class="figcation_container">
-					<div>
-						<a href="html/photo_eliot.html"><button class="figcaption_eliot"><figcaption class="figcaption_texte"><br /><strong class="strong_name_photo">Eliot EDY</strong><br /><br />Devellopement Web & Conseil restauration</figcaption></button></a>
+			</div>
+				<div class="modal" id="modal">
+					<div class="modal_button_end">
+						<div><button class="previous_button"><-</button></div>
+						<div><button class="close_button">&times;</button></div>
+						<div><button class="next_button">-></button></div>
 					</div>
-					<div>
-						<a href="html/photo_nolhan.html"><button class="figcaption_nolhan"><figcaption class="figcaption_texte"><br /><strong class="strong_name_photo">Nolhan LACOM</strong><br ><br />Conseil & Stratégie commercial</figcaption></button></a>
+					<div class="modal_header">
+						<div><img class="image_modal" src="images/photo_eliot_mini.JPEG" /></div>
+						<div class="modal_title_name"><strong>Eliot EDY</strong></div>
 					</div>
-					<div>
-						<a href="html/photo_germain.html"><button class="figcaption_germain"><figcaption class="figcaption_texte"><br /><strong class="strong_name_photo">Germain NIVERT</strong><br /><br />Conseil Design & Création</figcaption></button></a>
+					<div class="modal_body">
+						<div class="modal_domaine">
+							<hr />
+							<h3>Domaine</h3>
+							<p>Devellopement Web & Conseil restauration</p>
+						</div>
+						<div class="modal_parcour">
+							<hr />
+							<h3>Etude</h3>
+							<ul>
+								<li>BTS Hottelerie Restauration</li>
+								<li>Etudiant ecole 42, Paris</li>
+							</ul>
+						</div>
+						<div class="modal_experience">
+							<hr />
+							<h3>Experience professionnel</h3>
+							<ul>
+								<li>Disney-Land Paris</li>		
+								<li>Giro d'italia, Serris</li>
+								<li>La toile du Chef, Meaux</li>
+							</ul>
+						</div>
+						<div class="modal_prestation">
+							<hr />
+							<h3>Prestation</h3>
+							<ul>
+								<li>Audit / client mystere</li>		
+								<li>Fiche technique</li>
+								<li>Audit site web</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="div_prestation_lower">
-				<button id="prestation" class="button_prestation_lower"><strong>Nos Prestations</strong></button>
+				<button  class="button_prestation_lower"><strong>Nos Prestations</strong></button>
 			</div>
+	<div id="overlay"></div>
 	<div class="nous_contacter" id="nous_contacter">
 		<h2 class="notre_nom"><img height="90px" width="90px" src="images/logo.png" class="logo_nous_contacter"/><strong>Notre Nom</strong></h2>
 		<div class="form">

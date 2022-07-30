@@ -93,7 +93,7 @@ p a
 
 .slogan
 {
-	padding-top: 80px;
+	padding-top: 60px;
 	font-size: 55px;	
 	color: white;
 }
@@ -101,7 +101,7 @@ p a
 .container_button
 {
 	display: flex;
-	padding-top: 50px;
+	padding-top: 0px;
 	justify-content: center;
 	column-gap: 90px;
 }
@@ -201,65 +201,47 @@ h2
 	background: rgba(0, 0, 0, 0.1);
 }
 
-.bloc_photo_eliot, .bloc_photo_nolhan, .bloc_photo_germain
+.modal
 {
-	height: 450px;
-	width: 350px;
-	background: white;
-	position: relative;
+	position: fixed;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 10px 5px 100px black;
 	z-index: 2;
+	background-color: white;
+	width: 600px;
+	max-width: 80%;
+	max-height: 85%;
+	overflow: auto;
 }
 
-.photo_eliot, .photo_nolhan, .photo_germain
+.modal_header
 {
-	position: relative;
-	z-index: 3;
-	top: 30px;
-	left:25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
-.figcaption_eliot, .figcaption_nolhan, .figcaption_germain
+.image_modal
 {
-	background: rgba(250, 250, 250, 0.98);
-	border: none;
-/*border-radius: 10px;*/	
-	height: 75px;
-	/*width: 290px;*/	
-	width: 300px;	
-	margin: 0px;
-	padding:0px;
-	top: -95px;
-/*top:-100px;*/	
-	position:relative;
-	z-index: 2;
+	clip-path: circle(50% at 50% 50%);
+	height:200px;
+	width:200px;
+	margin-bottom: 10px;
 }
 
-.figcaption_eliot:hover, .figcaption_nolhan:hover, .figcaption_germain:hover
-{
-	background: rgba(230, 230, 230, 0.98);
-}
-
-.figcation_container
-{
-	display:flex;
-	justify-content: space-around;
-}
-
-.strong_name_photo
-{
-	font-size: 15px;
-}
-
-.figcaption_texte
-{
-	padding-bottom:10px;	
-	font-size: 12px;
-}
+.modal_title_name
 
 .div_prestation_lower
 {
 	display: flex;
 	justify-content: center;
+	margin-top: 100px;
 }
 
 .button_prestation_lower
@@ -390,7 +372,7 @@ footer
 .notre_nom_footer
 {
 	position: relative;
-	z-index: 9;
+	z-index: 1;
 	top: -53px;
 	font-size: 40px;
 	left: 30px;
